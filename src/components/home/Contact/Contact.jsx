@@ -21,7 +21,7 @@ const Contact = () => {
 
             <div className="contact-actions">
               <a
-                href="mailto:shubhamk3304@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=shubhamk3304@gmail.com&su=Hiring%20Inquiry&body=Hello%20Shubham"
                 className="contact-btn primary"
               >
                 Send Email
@@ -37,7 +37,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="www.linkedin.com/in/shubham-kumar-74302a262"
+                href="https://www.linkedin.com/in/shubham-kumar-74302a262/"
                 target="_blank"
                 rel="noreferrer"
                 className="contact-btn secondary"

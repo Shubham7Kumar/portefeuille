@@ -58,9 +58,13 @@ const Navbar = () => {
           </li>
 
           {/* MOBILE BUTTON */}
-          <button className="mobile-btn">
-            Hire Me
-          </button>
+          <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=shubhamk3304@gmail.com&su=Hiring%20Inquiry&body=Hello%20Shubham"
+  className="mobile-btn"
+>
+  Hire Me
+</a>
+      
 
         </ul>
 
@@ -69,11 +73,13 @@ const Navbar = () => {
 
           <div className="social-icons">
 
-            <a href="https://github.com/Shubham7Kumar">
+            <a href="https://github.com/Shubham7Kumar" target="_blank"
+                  rel="noreferrer">
               <FaGithub />
             </a>
 
-            <a href="www.linkedin.com/in/shubham-kumar-74302a262">
+            <a href="https://www.linkedin.com/in/shubham-kumar-74302a262/" target="_blank"
+                  rel="noreferrer">
               <FaLinkedinIn />
             </a>
 
