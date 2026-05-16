@@ -1,0 +1,155 @@
+.contact-section {
+  position: relative;
+  padding: 120px 0;
+  overflow: hidden;
+  background: var(--bg-dark);
+}
+
+.contact-glow {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.12;
+}
+
+.contact-glow.left {
+  top: -100px;
+  left: -100px;
+  background: var(--primary);
+}
+
+.contact-glow.right {
+  bottom: -100px;
+  right: -100px;
+  background: var(--secondary);
+}
+
+.contact-card {
+  position: relative;
+  max-width: 850px;
+  margin: auto;
+  padding: 70px 50px;
+  border-radius: 32px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.04),
+      rgba(255,255,255,0.02)
+    );
+
+  backdrop-filter: blur(14px);
+}
+
+.contact-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(0,184,212,0.08),
+      transparent,
+      rgba(100,221,23,0.08)
+    );
+
+  pointer-events: none;
+}
+
+.contact-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.contact-tag {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 18px;
+  border-radius: 50px;
+
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid var(--border-color);
+
+  color: var(--primary);
+
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.contact-content h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--text-light);
+}
+
+.contact-content p {
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.8;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.contact-actions {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  padding: 15px 28px;
+  border-radius: 14px;
+  text-decoration: none;
+
+  font-weight: 600;
+  transition: 0.35s ease;
+}
+
+.contact-btn.primary {
+  background:
+    linear-gradient(
+      90deg,
+      var(--primary),
+      var(--secondary)
+    );
+
+  color: white;
+}
+
+.contact-btn.secondary {
+  border: 1px solid var(--border-color);
+  background: rgba(255,255,255,0.04);
+  color: var(--text-light);
+}
+
+.contact-btn:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+
+  .contact-card {
+    padding: 50px 24px;
+  }
+
+  .contact-content h2 {
+    font-size: 2rem;
+  }
+
+  .contact-content p {
+    font-size: 0.95rem;
+  }
+
+}
