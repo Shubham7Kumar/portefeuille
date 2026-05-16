@@ -6,7 +6,7 @@ export const projects = [
     description:
       "Modern animated portfolio using React, GSAP, Lenis and Bootstrap.",
     tech: ["React", "GSAP", "Lenis"],
-    url:"/",
+    url:"https://portefeuille-9kb6injug-shubham7kumars-projects.vercel.app/",
   },
 
   {
