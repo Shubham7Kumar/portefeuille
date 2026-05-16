@@ -1,11 +1,10 @@
 // Hero.jsx
 
 import "./Hero.css";
-
+import resume from "../../../assets/ShubhamResume.pdf"
 import {
   FaGithub,
   FaLinkedinIn,
-  FaArrowRight,
   FaCode,
   FaDatabase,
   FaGlobe,
@@ -124,15 +123,13 @@ const Hero = () => {
 
             <button className="primary-btn">
 
-              View Projects
-
-              <FaArrowRight size={15} />
+              <a href={resume} download="Shubham_Resume.pdf">Download Resume</a>
 
             </button>
 
             <button className="secondary-btn">
 
-              Contact Me
+              <a href="#contact">Contact Me</a>
 
             </button>
 
