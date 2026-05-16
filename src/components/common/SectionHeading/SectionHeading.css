@@ -1,0 +1,14 @@
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.section-heading p {
+  color: var(--secondary);
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+}

@@ -1,0 +1,6 @@
+.primary-btn,
+.secondary-btn {
+  transition:
+    transform 0.2s ease,
+    background 0.3s ease;
+}

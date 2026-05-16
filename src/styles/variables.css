@@ -1,0 +1,14 @@
+:root {
+  --primary: #D4AF37;
+  --secondary: #8B1E3F;
+
+  --bg-dark: #0F1115;
+  --card-dark: #1A1D24;
+
+  --text-light: #F5F5F5;
+  --text-muted: #9CA3AF;
+
+  --border-color: rgba(255,255,255,0.10);
+
+  --transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
