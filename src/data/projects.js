@@ -34,7 +34,7 @@ export const projects = [
     "Mongoose"
   ],
 
-  url: "https://bank-ledger-system-qbw5.onrender.com",
+  url: "https://bank-ledger-system-qbw5.onrender.com/health",
 
   credentials: {
     email: "devshubhamtoconnect@gmail.com",
