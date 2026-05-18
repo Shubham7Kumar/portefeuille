@@ -306,7 +306,7 @@
 
     flex-direction: column;
     align-items: flex-start;
-
+    display: flex;
     gap: 26px;
 
     border-radius: 28px;
@@ -331,6 +331,7 @@
     visibility: visible;
 
     transform: translateY(0);
+    display: flex;
   }
 
   .menu-toggle {
