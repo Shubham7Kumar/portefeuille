@@ -123,7 +123,7 @@ const Hero = () => {
 
             <button className="primary-btn">
 
-              <a href={resume} download="Shubham_Resume.pdf">Download Resume</a>
+              <a href={resume} download="Resume_Shubham.pdf">Download Resume</a>
 
             </button>
 
