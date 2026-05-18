@@ -49,7 +49,7 @@ const About = () => {
               <div className="about-stats">
 
                 <div className="stat-card">
-                  <h3>10+</h3>
+                  <h3>5+</h3>
                   <span>Projects</span>
                 </div>
 
