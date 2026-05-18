@@ -1,7 +1,7 @@
 // Hero.jsx
 
 import "./Hero.css";
-import resume from "../../../assets/ShubhamResume.pdf"
+import resume from "../../../assets/ResumeShubham.pdf"
 import {
   FaGithub,
   FaLinkedinIn,
