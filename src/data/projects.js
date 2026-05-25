@@ -10,7 +10,7 @@ export const projects = [
   },
 
   {
-    type:"Private | Full Stack Project | For a Institute",
+    type:"Private | Full Stack Project",
     title: "Educational Platform",
     
     description:
