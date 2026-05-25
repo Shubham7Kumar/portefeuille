@@ -1,6 +1,6 @@
 import { useFadeUp } from "../../../hooks/useFadeUp";
 import SectionHeading from "../../common/SectionHeading/SectionHeading";
-import img from "../../../assets/MyPic.jpeg";
+import img from "../../../assets/MyPic.png";
 import "./About.css";
 
 const About = () => {
