@@ -37,7 +37,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/shubham-kumar-74302a262/"
+                href="https://www.linkedin.com/in/shubhamkumar-tech/"
                 target="_blank"
                 rel="noreferrer"
                 className="contact-btn secondary"
