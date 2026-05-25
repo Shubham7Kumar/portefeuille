@@ -1,7 +1,7 @@
 export const projects = [
  
   {
-    type:"Frontend Project",
+    type:"Public | Frontend Project",
     title: "Portfolio Website",
     description:
       "Modern animated portfolio using React, GSAP, Lenis and Bootstrap.",
@@ -10,8 +10,9 @@ export const projects = [
   },
 
   {
-    type:"Full Stack Project",
+    type:"Private | Full Stack Project | For a Institute",
     title: "Educational Platform",
+    
     description:
       "Dynamic educational platform with admin dashboard, homepage CMS and asset management system.",
     tech: ["React", "Node.js", "Cloudinary","Express","Redis","Bootstrap","GSAP"],
@@ -19,7 +20,7 @@ export const projects = [
   },
 
   {
-  type: "Backend Project",
+  type: "Public | Backend Project",
 
   title: "Banking Ledger System",
 
